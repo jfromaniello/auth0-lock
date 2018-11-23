@@ -155,7 +155,7 @@ export default class Base extends EventEmitter {
         }
         this.oldScreenName = screen.name;
       } else {
-        remove(l.ui.containerID(m));
+        remove(l.ui.containerID(m), l.enableULPCompatibility(m));
       }
     });
   }

@@ -1,6 +1,10 @@
 {
   "name": "auth0-lock",
+<<<<<<< HEAD
   "version": "11.24.3",
+=======
+  "version": "11.12.1",
+>>>>>>> Fix `lock is undefined` error in non-redirect scenarios (#1557)
   "main": "build/lock.js",
   "ignore": [
     "lib-cov",

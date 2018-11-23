@@ -1,5 +1,6 @@
 # Change Log
 
+<<<<<<< HEAD
 ## [v11.24.3](https://github.com/auth0/lock/tree/v11.24.3) (2020-06-19)
 [Full Changelog](https://github.com/auth0/lock/compare/v11.24.2...v11.24.3)
 
@@ -369,6 +370,8 @@
 - Fixed missing scroll issue for sign up [\#1566](https://github.com/auth0/lock/pull/1566) ([degrammer](https://github.com/degrammer))
 
 
+=======
+>>>>>>> Fix `lock is undefined` error in non-redirect scenarios (#1557)
 ## [v11.12.1](https://github.com/auth0/lock/tree/v11.12.1) (2018-11-23)
 [Full Changelog](https://github.com/auth0/lock/compare/v11.12.0...v11.12.1)
 

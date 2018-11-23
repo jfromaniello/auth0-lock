@@ -51,6 +51,7 @@ Object {
   "defaultADUsernameFromEmailPrefix": true,
   "domain": "domain",
   "emitEventFn": "emitEventFn",
+  "enableULPCompatibility": false,
   "handleEventFn": "handleEventFn",
   "hashCleanup": true,
   "hookRunner": "hookRunner",

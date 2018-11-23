@@ -46,6 +46,7 @@ export default class SocialButtonsPane extends React.Component {
           primaryColor={primaryColor}
           foregroundColor={foregroundColor}
           icon={icon}
+          disabled={disabled || l.submitting(lock)}
         />
       );
     });
