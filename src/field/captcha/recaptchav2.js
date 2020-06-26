@@ -75,7 +75,7 @@ export class ReCAPTCHA extends React.Component {
   render() {
     return (
       <div
-        style={{ transform: 'scale(0.86)', transformOrigin: '0 0', position: 'relative' }}
+        style={{ transform: 'scale(0.927)', transformOrigin: '-2px -2px', position: 'relative' }}
         className="auth0-lock-recaptchav2"
         ref={this.ref}
       />

@@ -20,7 +20,7 @@ export default class SocialButtonsPane extends React.Component {
   render() {
     // TODO: i don't like that it receives the instructions tanslated
     // but it also takes the t fn
-    const { instructions, labelFn, lock, showLoading, signUp } = this.props;
+    const { instructions, labelFn, lock, showLoading, signUp, disabled } = this.props;
 
     const headerText = instructions || null;
     const header = headerText && <p>{headerText}</p>;
@@ -73,7 +73,8 @@ SocialButtonsPane.propTypes = {
   lock: PropTypes.object.isRequired,
   showLoading: PropTypes.bool.isRequired,
   signUp: PropTypes.bool.isRequired,
-  e: PropTypes.bool
+  e: PropTypes.bool,
+  disabled: PropTypes.bool,
 };
 
 SocialButtonsPane.defaultProps = {
